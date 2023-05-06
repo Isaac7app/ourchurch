@@ -225,6 +225,9 @@ ul.about-content {
 	.section-title {
 		font-size: 35px;
 	}
+	.about-right p{
+		font-size: 25px;
+	}
 	.about-left, .about-right {
 		flex-basis: 100%;
 	}
@@ -235,13 +238,16 @@ ul.about-content {
 /*msg area*/
 
 .msg-area {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/ihccpic2.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/psmum.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 	color: #fff;
 	text-align: center;
+}
+.msg-area h2 span {
+	color: #bf0a30;
 }
 /*service area*/
 
