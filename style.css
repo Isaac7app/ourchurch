@@ -249,6 +249,11 @@ ul.about-content {
 .msg-area h2 span {
 	color: #bf0a30;
 }
+@media (max-width: 1000px) {
+	.msg-content h2,p {
+	  font-size: 30px;
+	}
+}
 /*service area*/
 
 ul.services-content {
