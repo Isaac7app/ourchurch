@@ -9,6 +9,8 @@ html {
 body {
 	font-family: poppins;
 }
+/*Navbar*/
+
 ul, ul.nav {
 	list-style: none;
 }
@@ -16,7 +18,13 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
+	font-size: 1rem;
 }
+a:hover{
+	color: orange;
+}
+/*Header*/
+
 header {
 	position: absolute;
 	top: 0;
@@ -109,7 +117,7 @@ section p {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(images/ihccpic.jpg);
+	
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -157,14 +165,33 @@ section p {
 		min-height: 600px;
 	}
 	.banner-area h1 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.banner-area h3 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.banner-area a.banner-btn {
 		padding: 8px 20px;
 	}
+}
+/*for phones*/
+@media (max-width: 480px) {
+    .banner-area .banner-img {
+        background-image: url(images/ihccpic.jpg);
+    }	
+	
+}
+/*For tablets*/
+@media (min-width: 481px) and (max-width: 1024px) {
+    .banner-area .banner-img {
+        background-image: url(images/ihccpic.jpg);
+    }
+}
+/*For desktops*/
+@media (min-width: 1025px) {
+    .banner-area .banner-img {
+	    background-image: url(images/ihccpic.jpg);
+   }
 }
 /*about area*/
 
